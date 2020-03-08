@@ -4154,23 +4154,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Channing\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\chann\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Source\\Repos\\identity-server\\IdentityServer\\IdentityServer.csproj",
+      "projectUniqueName": "C:\\Users\\chann\\Source\\Repos\\identity-server\\IdentityServer\\IdentityServer.csproj",
       "projectName": "IdentityServer",
-      "projectPath": "C:\\Source\\Repos\\identity-server\\IdentityServer\\IdentityServer.csproj",
-      "packagesPath": "C:\\Users\\Channing\\.nuget\\packages\\",
-      "outputPath": "C:\\Source\\Repos\\identity-server\\IdentityServer\\obj\\",
+      "projectPath": "C:\\Users\\chann\\Source\\Repos\\identity-server\\IdentityServer\\IdentityServer.csproj",
+      "packagesPath": "C:\\Users\\chann\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\chann\\Source\\Repos\\identity-server\\IdentityServer\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Channing\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\chann\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

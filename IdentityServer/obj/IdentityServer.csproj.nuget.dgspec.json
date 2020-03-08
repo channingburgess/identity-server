@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Source\\Repos\\identity-server\\IdentityServer\\IdentityServer.csproj": {}
+    "C:\\Users\\chann\\source\\repos\\identity-server\\IdentityServer\\IdentityServer.csproj": {}
   },
   "projects": {
-    "C:\\Source\\Repos\\identity-server\\IdentityServer\\IdentityServer.csproj": {
+    "C:\\Users\\chann\\source\\repos\\identity-server\\IdentityServer\\IdentityServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\Repos\\identity-server\\IdentityServer\\IdentityServer.csproj",
+        "projectUniqueName": "C:\\Users\\chann\\source\\repos\\identity-server\\IdentityServer\\IdentityServer.csproj",
         "projectName": "IdentityServer",
-        "projectPath": "C:\\Source\\Repos\\identity-server\\IdentityServer\\IdentityServer.csproj",
-        "packagesPath": "C:\\Users\\Channing\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\Repos\\identity-server\\IdentityServer\\obj\\",
+        "projectPath": "C:\\Users\\chann\\source\\repos\\identity-server\\IdentityServer\\IdentityServer.csproj",
+        "packagesPath": "C:\\Users\\chann\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chann\\source\\repos\\identity-server\\IdentityServer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Channing\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chann\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -13,6 +13,7 @@ namespace IdentityServer
             new IdentityResource[]
             {
                 new IdentityResources.OpenId(),
+                new IdentityResources.Email(),
                 new IdentityResources.Profile(),
             };
 
@@ -30,13 +31,16 @@ namespace IdentityServer
                 // client credentials flow client
                 new Client
                 {
-                    ClientId = "client",
-                    ClientName = "Client Credentials Client",
-
-                    AllowedGrantTypes = GrantTypes.ClientCredentials,
-                    ClientSecrets = { new Secret("511536EF-F270-4058-80CA-1C89C192F69A".Sha256()) },
-
-                    AllowedScopes = { "api1" }
+                    RequireConsent = false,
+                    ClientId = "angular_spa",
+                    ClientName = "Angular SPA",
+                    AllowedGrantTypes = GrantTypes.Implicit,
+                    AllowedScopes = { "openid", "profile", "email" },
+                    RedirectUris = {"http://localhost:4200/auth-callback"},
+                    PostLogoutRedirectUris = {"http://localhost:4200/"},
+                    AllowedCorsOrigins = {"http://localhost:4200"},
+                    AllowAccessTokensViaBrowser = true,
+                    AccessTokenLifetime = 3600
                 },
 
                 // MVC client using code flow + pkce
